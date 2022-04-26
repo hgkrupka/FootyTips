@@ -1,0 +1,89 @@
+h1 {
+    color: white;
+    background-color: dodgerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 10pt;
+    border-radius: 5pt;
+    padding: 10pt;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 5pt;
+    padding: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#feed {
+    background-color: lightgrey;
+    padding: 10pt;
+    border-radius: 5pt;
+    margin: 10pt;
+}
+
+body {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#postsSpan {
+    border-radius: 5pt;
+    background-color: white;
+}
+
+.post {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style:solid;
+    margin:5pt;
+    border: 5pt;
+    padding: 5pt;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5pt;
+
+}
+
+.postName {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.postBody {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.postTime {
+    font-size: x-small;
+    float:inline-end
+
+}
+
+#newPostDiv {
+    background-color: lightgrey;
+    padding: 10pt;
+    border-radius: 5pt;
+    margin: 10pt;
+}
+
+#profile {
+    float: right; 
+    display: block; 
+    height: auto; 
+    background-color: white; 
+    padding: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5pt;
+    padding: 5pt;
+    font-weight: bold;
+}
+
+#loginButton {
+    font-weight: bold;
+    padding: 1pt;
+    margin: 5pt;
+}

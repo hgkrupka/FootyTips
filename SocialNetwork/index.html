@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Social Network</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+
+<body onload="loadPosts(); loadProfile()" >
+
+    <div class="container">
+        <h1 class="title">SocialNetwork</h1>
+        <div style="height: 70pt;"><div id = "profile" >username</div></div>
+        <script src="/script.js"></script>
+
+        <div id = "feed">
+            <h2>Feed</h2>
+            <span id="postsSpan">
+            </span>
+            <br>
+            <br>
+        </div>
+        <div id = "newPostDiv">
+            <textarea  class="form-control" name="" id="newPost"></textarea>
+            <br>
+            <button class="btn btn-primary btn-lg" id="addButton" onclick="addPost()">Post</button>
+        </div>
+    </div>
+
+    
+    
+</body>
+
+</html>
